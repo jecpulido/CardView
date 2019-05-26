@@ -36,7 +36,7 @@ public class AlbumDetailActivity extends AppCompatActivity {
         title = (TextView) findViewById(R.id.titlealbum);
         title.setText(album.getName());
         description= (TextView) findViewById(R.id.descriptionalbum);
-        description.setText(album.getNumOfSongs() + " canciones");
+        description.setText(album.getNumOfSongs() + getString(R.string.complement_card_song));
 
         listSong = new ArrayList<>();
         recyclerSongs = (RecyclerView) findViewById(R.id.recycler_view_songs);
@@ -56,7 +56,7 @@ public class AlbumDetailActivity extends AppCompatActivity {
 
     private void BuscarCanciones(int num) {
         for (int i = 1; i <=num;i++){
-            listSong.add(new Song("Cancion "+i,(int)(Math.random() * 5) + 1+":"+(int)(Math.random()*(10-50+1)+50)));
+            listSong.add(new Song(getString(R.string.song_for_album)+i,(int)(Math.random() * 5) + 1+":"+(int)(Math.random()*(10-50+1)+50)));
         }
     }
 

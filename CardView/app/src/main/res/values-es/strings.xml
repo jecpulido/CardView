@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicación de música</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_add_favourite">Agregar a favoritos</string>
+    <string name="action_play_next">Siguiente canción</string>
+    <string name="backdrop_title">Música para el momento</string>
+    <string name="backdrop_subtitle">Los mejores 20</string>
+
+    <string name="download">Descargar</string>
+    <string name="title_card_song">Titulo</string>
+    <string name="time_cardsong">Duración</string>
+    <string name="complement_card_song">canciones</string>
+    <string name="song_for_album">Cancion</string>
+    <string name="add_song">Agregar a favoritos</string>
+    <string name="next_song">Siguiente canción</string>
+    <string name="true_romance">True Romance</string>
+    <string name="xscpae">Xscpae</string>
+    <string name="maroon_5">Maroon 5</string>
+    <string name="born_to_die">Born to Die</string>
+    <string name="honey_moon">Honeymoon</string>
+    <string name="need_a_doctor">I Need a Doctor</string>
+    <string name="loud">Loud</string>
+    <string name="legend">Legend</string>
+    <string name="hello">Hello</string>
+    <string name="greatest_hits">Greatest Hits</string>
+</resources>

@@ -1,11 +1,27 @@
 <resources>
-    <string name="app_name">Aplicación de música</string>
-    <string name="action_settings">Configuración</string>
-    <string name="action_add_favourite">Agregar a favoritos</string>
-    <string name="action_play_next">Siguiente canción</string>
-    <string name="backdrop_title">Música para el momento</string>
-    <string name="backdrop_subtitle">Los mejores 20</string>
+    <string name="app_name">Music application</string>
+    <string name="action_settings">Configuration</string>
+    <string name="action_add_favourite">Add to Favorites</string>
+    <string name="action_play_next">Next song</string>
+    <string name="backdrop_title">Music for the moment</string>
+    <string name="backdrop_subtitle">The best 20</string>
+    <string name="download">to download</string>
+    <string name="title_card_song">Title</string>
+    <string name="time_cardsong">Duration</string>
+    <string name="complement_card_song">songs</string>
+    <string name="song_for_album">Song</string>
+    <string name="add_song">Add to Favorites</string>
+    <string name="next_song">Next song</string>
 
-    <string name="download">Descargar</string>
+    <string name="true_romance">True Romance</string>
+    <string name="xscpae">Xscpae</string>
+    <string name="maroon_5">Maroon 5</string>
+    <string name="born_to_die">Born to Die</string>
+    <string name="honey_moon">Honeymoon</string>
+    <string name="need_a_doctor">I Need a Doctor</string>
+    <string name="loud">Loud</string>
+    <string name="legend">Legend</string>
+    <string name="hello">Hello</string>
+    <string name="greatest_hits">Greatest Hits</string>
 
 </resources>

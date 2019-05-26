@@ -71,7 +71,7 @@ public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.MyViewHold
             }
         });
         holder.title.setText(album.getName());
-        holder.count.setText(album.getNumOfSongs() + " canciones");
+        holder.count.setText(album.getNumOfSongs() + " "+ mContext.getString(R.string.song_for_album));
 
         // loading album cover using Glide library
         Glide.with(mContext).load(album.getThumbnail()).into(holder.thumbnail);
@@ -109,10 +109,10 @@ public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.MyViewHold
         public boolean onMenuItemClick(MenuItem menuItem) {
             switch (menuItem.getItemId()) {
                 case R.id.action_add_favourite:
-                    Toast.makeText(mContext, "Agregar a favoritos", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mContext, R.string.add_song, Toast.LENGTH_SHORT).show();
                     return true;
                 case R.id.action_play_next:
-                    Toast.makeText(mContext, "Siguiente canción", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mContext, R.string.next_song, Toast.LENGTH_SHORT).show();
                     return true;
                 default:
             }
